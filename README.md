@@ -20,26 +20,10 @@
 等待 1-2 分钟部署完成后，页面顶部会显示链接：
 
 ```
-https://mziL-1.github.io/520-page/520.html
-```
-
-> ⚠️ 注意：GitHub Pages 的入口是 `520.html`，不是根目录，所以链接末尾需要加上 `/520.html`。
-
-### 4. 自定义入口（可选）
-
-如果想用根路径直接访问，可以把 `520.html` 重命名为 `index.html`：
-
-```bash
-git mv 520.html index.html
-git commit -m "rename to index.html for GitHub Pages"
-git push origin master
-```
-
-之后访问链接就是：
-
-```
 https://mziL-1.github.io/520-page/
 ```
+
+直接访问即可，无需额外的文件名后缀。
 
 ---
 
